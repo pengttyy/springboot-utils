@@ -1,4 +1,4 @@
-package com.pengttyy.util;
+package com.pengttyy.util.unified.result;
 
 import org.springframework.web.bind.annotation.Mapping;
 

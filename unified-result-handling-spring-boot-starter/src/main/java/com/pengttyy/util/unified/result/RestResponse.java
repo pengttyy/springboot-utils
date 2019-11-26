@@ -1,4 +1,4 @@
-package com.pengttyy.util;
+package com.pengttyy.util.unified.result;
 
 import java.io.Serializable;
 
