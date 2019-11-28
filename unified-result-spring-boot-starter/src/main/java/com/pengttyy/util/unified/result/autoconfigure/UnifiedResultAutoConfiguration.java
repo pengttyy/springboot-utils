@@ -1,5 +1,6 @@
 package com.pengttyy.util.unified.result.autoconfigure;
 
+import com.pengttyy.util.unified.result.UnifiedRestResponseBodyAdvice;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
@@ -9,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
  * @author pengt
  */
 @Configuration
-@ComponentScan(basePackages = {"com.pengttyy.util"})
+@ComponentScan(basePackageClasses = UnifiedRestResponseBodyAdvice.class)
 public class UnifiedResultAutoConfiguration {
 
 }
