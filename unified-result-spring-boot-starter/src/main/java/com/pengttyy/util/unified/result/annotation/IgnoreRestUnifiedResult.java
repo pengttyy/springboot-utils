@@ -1,11 +1,12 @@
-package com.pengttyy.util.unified.result;
+package com.pengttyy.util.unified.result.annotation;
 
 import org.springframework.web.bind.annotation.Mapping;
 
 import java.lang.annotation.*;
 
 /**
- * 统一返回结果
+ * 忽略统一返回结果
+ * 有此注解的方法不对返回对象包装处理
  *
  * @author kai.peng
  */
@@ -13,5 +14,5 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Mapping
 @Documented
-public @interface UnRestUnifiedResult {
+public @interface IgnoreRestUnifiedResult {
 }

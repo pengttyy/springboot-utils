@@ -12,5 +12,4 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ComponentScan(basePackageClasses = UnifiedRestResponseBodyAdvice.class)
 public class UnifiedResultAutoConfiguration {
-
 }
