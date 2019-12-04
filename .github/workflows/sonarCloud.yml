@@ -12,4 +12,4 @@ jobs:
       with:
         java-version: 1.8
     - name: sonarCloud check
-      run: echo mvn -B verify sonar:sonar -Dsonar.projectKey=pengttyy_springboot-utils -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=${{ secrets.ACCESS_TOKEN }} -Dsonar.organization=pengttyy-github --file pom.xml
+      run: mvn -B verify sonar:sonar -Dsonar.projectKey=pengttyy_springboot-utils -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=fdafff084e665f0521ab84ecb337a5bd1a146050 -Dsonar.organization=pengttyy-github --file pom.xml
