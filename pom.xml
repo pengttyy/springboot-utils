@@ -20,6 +20,10 @@
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <versions-maven-plugin.version>2.5</versions-maven-plugin.version>
         <maven-source-plugin.version>3.2.0</maven-source-plugin.version>
+        <sonar.projectKey>pengttyy_springboot-utils</sonar.projectKey>
+        <sonar.organization>pengttyy-github</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.login>96af1c8bfd690540db775d188370acb087bdf5dc</sonar.login>
     </properties>
 
     <dependencyManagement>
