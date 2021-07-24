@@ -1,7 +1,4 @@
-/*
- * frxs Inc.  湖南兴盛优选电子商务有限公司.
- * Copyright (c) 2017-2021. All Rights Reserved.
- */
+
 package com.pengttyy.util.unified.result.exception;
 
 import org.springframework.http.HttpStatus;
