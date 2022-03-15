@@ -1,6 +1,8 @@
 /*
- * frxs Inc.  湖南兴盛优选电子商务有限公司.
- * Copyright (c) 2017-2021. All Rights Reserved.
+ *
+ *  * frxs Inc. object.
+ *  * Copyright (c) 2017-2022. All Rights Reserved.
+ *
  */
 package com.pengttyy.util.unified.result.exception;
 
